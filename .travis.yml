@@ -6,5 +6,7 @@ cache:
   - node_modules
 env:
   - CI=true
+install:
+  - npm install
   
   
