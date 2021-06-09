@@ -1,4 +1,5 @@
 ## Vikingship component library
+> 如果要使用Travis实现，请使用node版本v8.17.0安装依赖
 ## 使用 React+typescript 从零到一打造一套你自己的组件库
 ### 安装最后已经发布的组件库来试试
 
