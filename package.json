@@ -35,7 +35,7 @@
   "scripts": {
     "start": "react-scripts start",
     "clean": "rimraf ./dist",
-    "lint": "eslint --ext js,ts,tsx src --max-warnings 1",
+    "lint": "eslint --ext js,ts,tsx src --max-warnings 5",
     "build": "npm run clean && npm run build-ts && npm run build-css",
     "test": "react-scripts test",
     "test:nowatch": "cross-env CI=true react-scripts test",
@@ -83,7 +83,7 @@
     "@types/storybook__addon-info": "^5.2.1",
     "cross-env": "^7.0.0",
     "husky": "^4.2.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.1",
     "react": "^16.12.0",
     "react-docgen-typescript-loader": "^3.6.0",
     "react-dom": "^16.12.0",
